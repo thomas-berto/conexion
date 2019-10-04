@@ -1,0 +1,169 @@
+body 
+{background-color:#A50044;
+
+}
+
+
+.tete
+
+{position:relative;
+ text-align:center;
+ border:5px outset #EDBB00;
+ background-color:#004D98;
+ text-decoration:underline;
+ color:#A50044;
+scroll-behavior: auto;
+	}
+.conexion
+{
+
+   border:5px outset #004D98;
+   background-color:#EDBB00;
+   height:200px;
+    width:500px;
+	margin-left: auto;
+    margin-right: auto;
+   
+}
+.menu
+{ list-style-type:none;
+
+	background-color:#EDBB00;
+position: sticky;
+top: 0px;
+padding: 0px;
+ text-align:center;
+  word-spacing: 60px;   
+  }
+  li
+  
+  { list-style-type:none;
+  display:inline-block;
+  }
+ 
+.signature
+
+ { border:5px outset #EDBB00;
+ background-color:#004D98;
+ text-decoration: underline; 
+ text-shadow:2px 2px 5px white;
+
+
+}
+.titr
+{text-align:center;
+color:#EDBB00;
+text-shadow:2px 2px 5px #004D98
+
+}
+
+.login
+{background-color:#EDBB00;
+text-shadow:2px 2px 5px white;
+text-decoration:underline;
+text-align:center;
+display:flex; flex-flow: row wrap;
+justify-content:center;
+
+}
+.perso
+{
+	background-color:#004D98;
+	text-shadow:2px 2px 5px white;
+	text-decoration:underline;
+text-align:center;
+display:flex;
+flex direction:colum;
+justify-content:center;
+
+}
+
+
+.mdp
+{border:5px outset #EDBB00;
+ background-color:#EDBB00;
+ text-align:center;
+
+}
+
+
+.cruif
+
+{text-shadow:2px 2px 5px black;
+	text-decoration:underline;
+	border:5px outset #EDBB00 ;
+   background-color:#004D98;
+   height:200px;
+    width:500px;
+	margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+	color:white;
+	 animation-duration: 1s;
+  animation-name: slidein;
+  animation-direction: alternate;
+
+}
+
+@keyframes slidein {
+  from {
+ 
+	background-color:#A50044;
+  }
+
+  to {
+  
+	background-color: #EDBB00;
+  }
+}
+
+.fin 
+{background-color:#EDBB00;
+display:flex;
+height:auto;
+text-decoration:overline underline;
+    width:auto;
+	margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+	font-size: 1.2em;
+	 animation-duration: 1s;
+  animation-name: couleur;
+    animation-iteration-count:1;
+	flex-direction: column;
+	justify-content: flex-end;
+	 border: 30px solid;
+  border-image: linear-gradient(#004D98,#A50044 ) 10;
+}
+
+@keyframes couleur {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+ 
+	
+.rtr
+{
+	 border: 30px solid;
+  border-image: linear-gradient(red, yellow) 10;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
